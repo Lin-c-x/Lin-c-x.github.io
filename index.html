@@ -3,52 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的HTML作业</title>
-    <table width="500px" border="10">
-        <style>
-            
-        </style>
+    <title>My Web One</title>
+    <h1>个人介绍</h1>
+    <table width="1000" border="20">
+            <tr>
+                <td>尊姓大名</td>
+                <td>
+                    <input type="text" value="前端设计师">
+                </td>
+            </tr>
+            <tr>
+                <td>性别</td>
+                <td>
+                    <input type="radio" name="sex" id="boy"><label for="boy">Boy</label>
+                    <input type="radio" name="sex" id="girl"><label for="girl">Girl</label>
+                </td>
+            </tr>
+            <tr>
+                <td>学校</td>
+                <td><input type="text" value="翔安大学"></td>
+            </tr>
+            <tr>
+                <td>性格</td>
+                <td>
+                    <input type="checkbox" name="soul">冷酷无情
+                    <input type="checkbox" name="soul">平易近人
+                    <input type="checkbox" name="soul">善解人意
+                    <input type="checkbox" name="soul">落落大方
+                    <input type="checkbox" name="soul">淘气调皮
+                    <input type="checkbox" name="soul">凑个字数
+                </td>
+            </tr>
+            <tr>
+                <td>所学知识</td>
+                <td>
+                    <input type="checkbox" name="classes">HTML
+                    <input type="checkbox" name="classes">CSS
+                    <input type="checkbox" name="classes">C++
+                    <input type="checkbox" name="classes">Python
+                    <input type="checkbox" name="classes">高速退学
+                    <input type="checkbox" name="classes">线性die数
+                    <input type="checkbox" name="classes">啥也不会
+                </td>
+            </tr>
+            <tr>
+                <td>自我介绍（可以装个小逼啥的）</td>
+                <td><textarea name="" id="" cols="30" rows="10"> </textarea></td>
+            </tr>
+            <tr>
+                <td>莫得内容</td>
+                <td><button onclick="alter ('欢迎进来我的小作业！')"><a href="index2.html">给我进去！</a></button></td>
+            </tr>
+    </table>
 </head>
 <body>
-    <tr>
-        <td>性别</td>
-        <td>
-        <input type="radio" name="sex" id="male"><label for="male">男</label>
-        <input type="radio" name="sex" id="male"><label for="female">女</label>
-        </td>
-    </tr>
-    <tr>
-        <td>其他校区</td>
-        <td><input type="text" value="翔安校区"></td>
-    </tr>
-    <!--  -->
-    <tr><td>性格</td>
-        <td><input type="checkbox" name="soul">外向
-        <input type="checkbox" name="soul">内向
-        <input type="checkbox" name="soul">冷酷
-        <input type="checkbox" name="soul">热情
-        <input type="checkbox" name="soul">奔放
-        <input type="checkbox" name="soul">易怒
-        <input type="checkbox" checked="checked">以上都是</td>
-
-    </tr>
-    <tr>
-        <td>自学课程</td>
-        <td>
-            <input type="checkbox" name="classes">高数
-            <input type="checkbox" name="classes">大物
-            <input type="checkbox" name="classes">c++
-            <input type="checkbox" name="classes">HTML5+css
-            <input type="checkbox" checked="checked">以上都是
-        </td>
-    </tr>
-    <tr>
-        <td>自我介绍（7777777字以内）</td>
-        <td><textarea name="" id="" cols="30" rows="10">我是厦大的</textarea></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td><button onclick="alert('hhh')">确认提交</button></td>
-    </tr>
+    
 </body>
 </html>
